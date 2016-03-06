@@ -1,0 +1,82 @@
+.slides-box{height: 650px; color: #f0f0f0;}
+.slides-box .banner-box{
+	background: url('../images/banner.jpg') no-repeat center;
+	height: inherit;
+	/* padding-top: 211px; */
+}
+.slides-box .banner{
+	position: relative;
+	top: 211px;
+}
+.banner .txt-cn, .banner .txt-en{ text-align: center;}
+.banner .txt-en{
+	line-height: 1;
+	letter-spacing: 6px;
+}
+.banner .goto-page{
+	width: 394px;
+	height: 63px;
+	margin: 32px auto 0;
+}
+.banner .goto-page a{
+	display: block;
+	width: 188px;
+	height: inherit;
+}
+.banner .goto-page a > i,.banner .goto-page a > span{ width: inherit;	height: inherit;}
+.banner .goto-page a > i{position: relative;}
+.banner .goto-page a > span{position: absolute;}
+.banner .goto-page .btn-1{ border: 3px #f0f0f0 solid;}
+.banner .goto-page .btn-2{ background-color: #3463cf; opacity: 0.75;}
+.banner .goto-page .btn-1 + span,
+.banner .goto-page .btn-2 + span{
+	color: #f0f0f0;
+	font-size: 18px;
+}
+.banner .goto-page .btn-1 + span{line-height: 57px}
+.banner .goto-page .btn-2 + span{line-height: 63px}
+
+.index-info{
+	background-color: #f0f0f0;
+	height: 600px;
+	text-align: center;
+	padding-top: 85px;
+}
+.index-info .title{
+	background: url('../images/img00.png') no-repeat bottom center;
+	height: 82px;
+}
+.index-info .title h1,
+.index-info .title h2{
+	line-height: 1;
+}
+.index-info .title h1{height: 44px;}
+.index-info .title h1{letter-spacing: 3px;}
+.index-info ul li{width: 288px;}
+.index-info .info-dev{color: #e41a6c;}
+.index-info .info-opr{color: #f4ad17;}
+.index-info .img-dev{
+	width: 88px;
+	height: 72px;
+	background: url('../images/img01.png') no-repeat center;
+}
+.index-info .img-opr{
+	width: 72px;
+	height: 72px;
+	background: url('../images/img02.png') no-repeat center;
+}
+.index-info  li[class*=info-] h3,
+.index-info  li[class*=info-] h4{line-height: 1;}
+.index-info  li[class*=info-] h3{
+	margin-top: 25px;
+	font-size: 28px;
+}
+.index-info  li[class*=info-] h4{
+	margin-top: 6px;
+	font-size: 10px;
+}
+.index-info  li[class*=info-] p{
+	margin-top: 24px;
+	font-size: 16px;
+	color: #23282c;
+}
